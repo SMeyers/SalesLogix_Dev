@@ -1,0 +1,127 @@
+﻿/*
+ * SageStyles
+ * Copyright(c) 2011, Sage Software.
+ * 
+ * 
+ */
+
+/*Intellisync page styles   */
+
+#splashimg 
+{
+  
+    background: url(../images/icons/slx_splash_screen.png) no-repeat;
+    width:678px;
+    height:462px;
+    z-index:0;
+    margin-left: auto;
+    margin-right : auto;
+    margin-top : 50px;
+	position:relative;
+}
+
+#splashCenterBox
+{
+    width:420px;
+    height:200px;
+	border:1px solid #d3d2d2;
+	background-color: #f9f9f9;
+    z-index:5;
+	position:absolute;
+	top:105px;
+	left:115px;
+	
+    background-image: linear-gradient(
+        center top,
+        #ffffff 0%,      
+        #f1f1f1 100%
+    );
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #ffffff),        
+        color-stop(1, #f1f1f1)
+    );
+    background-image: -moz-linear-gradient(
+        center top,
+        #ffffff 0%,       
+        #f1f1f1 100%
+    );   
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#f1f1f1)";
+	
+	/*shadow behind box*/
+	-webkit-box-shadow:0px 0px 20px #e7e7e7;
+	-moz-box-shadow:0px 0px 20px #e7e7e7;
+	 box-shadow:0px 0px 20px #e7e7e7;
+}
+
+#LoginForm 
+{
+    position:relative;
+    top: 30px;
+    left: 10px;
+    width: 430px;
+    z-index:100;
+    font: arial, verdana, sans-serif;
+    color: #000000;
+}
+
+
+.divider
+{
+	background-image : url(../images/icons/loginDivider.png);
+    background-repeat:no-repeat;
+    width:2px;
+    height:175px;
+	position:relative;
+	top:-180px;
+	left:278px;
+}
+
+#ISVersionSection
+{
+    position:absolute;
+    top: 225px;
+	left: 5px;
+    font-size:11px;
+	color:#333;
+}
+
+#ISVersionSection .info
+{
+    top: 4px;
+    position:relative;
+}
+
+#ISTitle
+{
+    font-size: 18px;
+    color: #333;
+    padding-bottom: 25px;
+}
+
+#ISMessage
+{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+A 
+{
+    color : #0000cc;
+    text-decoration : none;
+}
+
+A:hover 
+{
+    text-decoration : underline;
+}
+A:active 
+{
+    color : #0000cc;
+    text-decoration : none;
+}
+
+
